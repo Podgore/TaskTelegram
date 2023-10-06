@@ -1,0 +1,11 @@
+E:\C\cs\TaskAPI\TaskAPI.Entities\bin\Debug\net6.0\TaskAPI.Entities.deps.json
+E:\C\cs\TaskAPI\TaskAPI.Entities\bin\Debug\net6.0\TaskAPI.Entities.dll
+E:\C\cs\TaskAPI\TaskAPI.Entities\bin\Debug\net6.0\TaskAPI.Entities.pdb
+E:\C\cs\TaskAPI\TaskAPI.Entities\obj\Debug\net6.0\TaskAPI.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\C\cs\TaskAPI\TaskAPI.Entities\obj\Debug\net6.0\TaskAPI.Entities.AssemblyInfoInputs.cache
+E:\C\cs\TaskAPI\TaskAPI.Entities\obj\Debug\net6.0\TaskAPI.Entities.AssemblyInfo.cs
+E:\C\cs\TaskAPI\TaskAPI.Entities\obj\Debug\net6.0\TaskAPI.Entities.csproj.CoreCompileInputs.cache
+E:\C\cs\TaskAPI\TaskAPI.Entities\obj\Debug\net6.0\TaskAPI.Entities.dll
+E:\C\cs\TaskAPI\TaskAPI.Entities\obj\Debug\net6.0\refint\TaskAPI.Entities.dll
+E:\C\cs\TaskAPI\TaskAPI.Entities\obj\Debug\net6.0\TaskAPI.Entities.pdb
+E:\C\cs\TaskAPI\TaskAPI.Entities\obj\Debug\net6.0\ref\TaskAPI.Entities.dll

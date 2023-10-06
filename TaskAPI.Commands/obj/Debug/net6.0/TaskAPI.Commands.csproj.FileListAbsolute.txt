@@ -1,0 +1,15 @@
+E:\C\cs\TaskAPI\TaskAPI.Commands\obj\Debug\net6.0\TaskAPI.Commands.csproj.AssemblyReference.cache
+E:\C\cs\TaskAPI\TaskAPI.Commands\obj\Debug\net6.0\TaskAPI.Commands.GeneratedMSBuildEditorConfig.editorconfig
+E:\C\cs\TaskAPI\TaskAPI.Commands\obj\Debug\net6.0\TaskAPI.Commands.AssemblyInfoInputs.cache
+E:\C\cs\TaskAPI\TaskAPI.Commands\obj\Debug\net6.0\TaskAPI.Commands.AssemblyInfo.cs
+E:\C\cs\TaskAPI\TaskAPI.Commands\obj\Debug\net6.0\TaskAPI.Commands.csproj.CoreCompileInputs.cache
+E:\C\cs\TaskAPI\TaskAPI.Commands\bin\Debug\net6.0\TaskAPI.Commands.deps.json
+E:\C\cs\TaskAPI\TaskAPI.Commands\bin\Debug\net6.0\TaskAPI.Commands.dll
+E:\C\cs\TaskAPI\TaskAPI.Commands\bin\Debug\net6.0\TaskAPI.Commands.pdb
+E:\C\cs\TaskAPI\TaskAPI.Commands\bin\Debug\net6.0\TaskAPI.Common.dll
+E:\C\cs\TaskAPI\TaskAPI.Commands\bin\Debug\net6.0\TaskAPI.Common.pdb
+E:\C\cs\TaskAPI\TaskAPI.Commands\obj\Debug\net6.0\TaskAPI.Commands.csproj.CopyComplete
+E:\C\cs\TaskAPI\TaskAPI.Commands\obj\Debug\net6.0\TaskAPI.Commands.dll
+E:\C\cs\TaskAPI\TaskAPI.Commands\obj\Debug\net6.0\refint\TaskAPI.Commands.dll
+E:\C\cs\TaskAPI\TaskAPI.Commands\obj\Debug\net6.0\TaskAPI.Commands.pdb
+E:\C\cs\TaskAPI\TaskAPI.Commands\obj\Debug\net6.0\ref\TaskAPI.Commands.dll

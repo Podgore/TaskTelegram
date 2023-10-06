@@ -1,0 +1,12 @@
+E:\C\cs\TaskAPI\TaskAPI.Common\obj\Debug\net6.0\TaskAPI.Common.csproj.AssemblyReference.cache
+E:\C\cs\TaskAPI\TaskAPI.Common\obj\Debug\net6.0\TaskAPI.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\C\cs\TaskAPI\TaskAPI.Common\obj\Debug\net6.0\TaskAPI.Common.AssemblyInfoInputs.cache
+E:\C\cs\TaskAPI\TaskAPI.Common\obj\Debug\net6.0\TaskAPI.Common.AssemblyInfo.cs
+E:\C\cs\TaskAPI\TaskAPI.Common\obj\Debug\net6.0\TaskAPI.Common.csproj.CoreCompileInputs.cache
+E:\C\cs\TaskAPI\TaskAPI.Common\bin\Debug\net6.0\TaskAPI.Common.deps.json
+E:\C\cs\TaskAPI\TaskAPI.Common\bin\Debug\net6.0\TaskAPI.Common.dll
+E:\C\cs\TaskAPI\TaskAPI.Common\bin\Debug\net6.0\TaskAPI.Common.pdb
+E:\C\cs\TaskAPI\TaskAPI.Common\obj\Debug\net6.0\TaskAPI.Common.dll
+E:\C\cs\TaskAPI\TaskAPI.Common\obj\Debug\net6.0\refint\TaskAPI.Common.dll
+E:\C\cs\TaskAPI\TaskAPI.Common\obj\Debug\net6.0\TaskAPI.Common.pdb
+E:\C\cs\TaskAPI\TaskAPI.Common\obj\Debug\net6.0\ref\TaskAPI.Common.dll
