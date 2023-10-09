@@ -67,9 +67,10 @@ namespace TaskAPI.DAL.Repositories
             return await Table.FindAsync(key);
         }
 
-        public virtual IEnumerable<TEntity> GetAll()
+        public  virtual async Task<IEnumerable<TEntity>> GetAll()
         {
-            return Table;
+
+            return await Table.ToListAsync();
         }
 
         public virtual int SaveChanges()

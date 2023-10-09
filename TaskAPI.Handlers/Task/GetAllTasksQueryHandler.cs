@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using System.Threading;
 using TaskAPI.Abstractions.Services;
 using TaskAPI.Commands.Task;
 using TaskAPI.Common.DTO;
@@ -15,13 +16,13 @@ public class GetAllTasksQueryHandler : IRequestHandler<GetTasksQuery, List<TaskD
         _taskService = taskService;
     }
 
-    public List<TaskDTO> Handle(GetTasksQuery request)
+    public async Task<List<TaskDTO>> Handle(GetTasksQuery request, CancellationToken cancellationToken)
     {
-        return _taskService.GetTask();
+        return await _taskService.GetTask();
     }
 
-    public Task<List<TaskDTO>> Handle(GetTasksQuery request, CancellationToken cancellationToken)
-    {
-        throw new NotImplementedException();
-    }
+    //public Task<List<TaskDTO>> Handle(GetTasksQuery request, CancellationToken cancellationToken)
+    //{
+    //    throw new NotImplementedException();
+    //}
 }

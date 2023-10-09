@@ -6,7 +6,7 @@ namespace TaskAPI.Abstractions.Services
     {
         Task<bool> DeleteTask(string Name);
         Task<TaskDTO> AddTask(TaskDTO task);
-        List<TaskDTO> GetTask();
+        Task<List<TaskDTO>> GetTask();
         Task<TaskDTO?> GetTaskByName(string Name);
         Task<TaskDTO> UpdateDate(string Name, UpdateTaskDTO task);
     }

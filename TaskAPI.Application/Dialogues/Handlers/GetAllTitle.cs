@@ -13,7 +13,7 @@ using Telegram.Bot.Types;
 
 namespace TaskAPI.Application.Dialogues.Handlers
 {
-    public class GetAllTitle
+    public class GetAllTitle : IDialogueHandler
     {
         private readonly ITelegramBotClient _botClient;
         private readonly IMediator _mediator;
@@ -29,16 +29,26 @@ namespace TaskAPI.Application.Dialogues.Handlers
 
         public async Task ProcessAsync(UserContext context, Update update, CancellationToken cancellationToken)
         {
+            context.GetContext = new GetContext();
             var choice = update.Message.Text;
             if (choice == "all")
-                await _mediator.Send(new GetTasksQuery());
+            {
+                var result = await _mediator.Send(new GetTasksQuery());
+                await _botClient.SendTextMessageAsync(context.ChatId, "Geting tasks:", cancellationToken: cancellationToken);
+                foreach (var task in result)
+                {
+                    await _botClient.SendTextMessageAsync(context.ChatId, $"Name: {task.Name} \nDescription: {task.Description}", cancellationToken: cancellationToken);
+                    
+                }
+            }
             else
             {
                 context.GetContext.Title = update.Message.Text;
-                await _mediator.Send(new GetTaskByIdQuery(context.GetContext.Title));
+                var task = await _mediator.Send(new GetTaskByIdQuery(context.GetContext.Title));
+                await _botClient.SendTextMessageAsync(context.ChatId, $"Name: {task.Name} \nDescription: {task.Description}", cancellationToken: cancellationToken);
             }
 
-            await _botClient.SendTextMessageAsync(context.ChatId, "Get task", cancellationToken: cancellationToken);
+            
             context.UserState = UserState.InitialState;
         }
     }

@@ -23,7 +23,7 @@ namespace TaskAPI.Abstractions.EF
         int Delete(TEntity entity, bool persist = true);
         Task<int> DeleteAsync(TEntity entity, bool persist = true);
 
-        IEnumerable<TEntity> GetAll();
+        Task<IEnumerable<TEntity>> GetAll();
 
         int SaveChanges();
         Task<int> SaveChangesAsync();
